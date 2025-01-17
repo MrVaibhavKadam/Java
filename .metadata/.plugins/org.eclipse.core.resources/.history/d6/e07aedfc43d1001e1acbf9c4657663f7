@@ -1,0 +1,12 @@
+package tester;
+import fruits.Fruit;
+import fruits.Mango;
+public class TestFruit3 {
+	
+	public static void main(String args[]) {
+		Fruit ref=new Mango("Mango");
+		ref.taste();
+		
+	}
+
+}

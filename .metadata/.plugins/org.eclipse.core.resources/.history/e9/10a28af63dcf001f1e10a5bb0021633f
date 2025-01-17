@@ -1,0 +1,22 @@
+
+public class Secondlargest {
+	
+	public static Secondlargest(int []arr) {
+		int firstLargest, secondLargest;
+		
+		if (arr[0]> arr[1]) {
+			firstLargest = arr[0];
+			secondLargest = arr[1];
+		}
+		else {
+			firstLargest = arr[1];
+			secondLargest = arr[0];
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

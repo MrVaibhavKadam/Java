@@ -1,0 +1,55 @@
+Assignment status
+String Handling 
+3 classes in String Handling :
+String , StringBuilder,StringBuffer : char sequence
+Important points in strings : immutability , == vs equals , literal vs non-literal strings
+API
+eg : 
+String s="abc";
+s += "1234";//s = s+"1234";
+sop(s);//abc1234
+s.toUpperCase();
+sop(s);//abc1234
+String s1=new String("abcde");
+String s2=new String("abcde");
+sop(s1==s2);//ref equality : false
+sop(s1.equals(s2));//String class has overridden Object cls's equals method : to replace ref equality by content equality : true
+
+eg : String s1="hello";//pool : ref1 ---> String obj "hello"
+String s2="hello";//no new obj created on the heap
+String s3=new String(s1);//new string obj created dynamically
+String s4="Hello";//pool : ref2 ---> String obj "Hello"
+sop(s1==s2);//t
+sop(s1==s3);//f (literal , non literal)
+sop(s1==s4);//f
+s1=s2=s3=s4=null;//GC : 1
+String s5="hello";//same literal obj
+
+API of String class 
+
+
+Date Handling
+Objective : How will you accept the birth date of 2 users & compare them ? 
+Scanner : next(), nextLine,nextInt()....
+
+
+
+variable arguments (var-args syntax)
+
+equals method
+Object class Method
+public boolean equals(Object o)
+eg : ref1.equals(ref2)
+Rets true -- iff ref1 & ref2 are referring to the SAME object in the heap.(ref equality)
+Solve : 
+Car : regNo (int) , color(string), price(double)
+constr & toString
+
+
+Enums : refer to read me 
+
+Wrapper class  : what is it ? Why , Inheritance hierarchy
+
+
+
+

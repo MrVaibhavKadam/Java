@@ -1,0 +1,33 @@
+package tester;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+import com.app.core.Student;
+
+public class StudentManagement {
+
+	public static void main(String[] args) {
+		
+		try (Scanner sc = new Scanner(System.in)){
+			//get populated map from utils.
+			HashMap<Integer, Student> map = new HashMap<>();
+			
+			boolean exits = false;
+			
+			while (!exits) {
+				
+				try {
+					
+				} catch (Exception e) {
+					System.out.println("Error: " + e);
+					System.out.println("Please try again..!");
+				}
+				
+			}
+			
+		}
+
+	}
+
+}

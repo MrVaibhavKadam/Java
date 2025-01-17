@@ -1,0 +1,16 @@
+package com.app.core;
+/*create student class, havin rollno, name, DOB, current subject(enum)
+ * add a constructor to init all data members except address.
+ * add toString.
+ * Addmethod to assign address to student.(setter) 
+ * */
+
+import java.time.LocalDate;
+
+public class Student {
+
+	private int rollNo;
+	private String name;
+	private LocalDate dob;
+	
+}

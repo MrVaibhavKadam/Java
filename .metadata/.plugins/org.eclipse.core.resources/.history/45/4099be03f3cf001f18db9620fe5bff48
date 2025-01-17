@@ -1,0 +1,15 @@
+package utils;
+
+import java.util.HashMap;
+import static com.app.core.Subject.*;
+import com.app.core.Student;
+
+
+public class CollectionUtils {
+	//Add static method to return populated map.
+	public static HashMap<Integer, Student> populatedMap(){
+		HashMap<Integer, Student> hm = new HashMap<>();
+		hm.put(10, new Student(10,ravi, 1990-12-13,AWP,7.5));
+		return hm;
+	}
+}
